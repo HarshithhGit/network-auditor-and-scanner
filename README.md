@@ -1,93 +1,130 @@
 # Network Auditor and Scanner
 
-A full-stack network auditing and scanning tool designed to analyze network activity, identify connected devices, and assist with basic security monitoring and diagnostics.
+A full-stack network auditing and scanning application built to analyze local networks, detect connected devices, and provide basic cybersecurity auditing features through a dedicated frontend and backend architecture.
 
 ## Features
 
-* Network device scanning
-* IP address and host detection
-* Simple command-line interface support
-* Frontend and backend architecture
-* Lightweight and easy to run
-* Real-time network auditing capabilities
-* Beginner-friendly project structure
+* Network device discovery
+* IP and host identification
+* Full-stack architecture
+* Frontend dashboard interface
+* Backend-powered scanning system
+* Lightweight and beginner-friendly design
+* Real-time network analysis support
 
-## Project Structure
+---
+
+# Project Structure
 
 ```bash
 network-auditor-and-scanner/
 │
-├── backend/          # Backend logic and network scanning modules
-├── frontend/         # Frontend interface files
-├── cli_demo.py       # Command-line demo script
-├── start.bat         # Windows startup script
+├── backend/          # Backend server and scanning logic
+├── frontend/         # Frontend user interface
+├── start.bat         # Startup script
 └── .gitignore
 ```
 
-## Technologies Used
+---
+
+# Technologies Used
 
 * Python
 * JavaScript
 * HTML
 * CSS
-* Batch Script
 
-## Installation
+---
 
-### Clone the Repository
+# Installation
+
+## Clone the Repository
 
 ```bash
 git clone https://github.com/HarshithhGit/network-auditor-and-scanner.git
 cd network-auditor-and-scanner
 ```
 
-## Running the Project
+---
 
-### Option 1: Run Using Batch File (Windows)
+# Running the Project
 
-```bash
-start.bat
-```
+## Step 1: Start the Backend
 
-### Option 2: Run the CLI Demo
+Open a terminal inside the backend folder:
 
 ```bash
-python cli_demo.py
+cd backend
 ```
 
-## Usage
+Run the backend server:
 
-1. Start the application.
-2. Scan the local network.
-3. View detected devices and network details.
-4. Analyze network activity for auditing purposes.
+```bash
+python app.py
+```
 
-## Future Improvements
+---
 
-* Advanced vulnerability scanning
+## Step 2: Start the Frontend
+
+Open another terminal inside the frontend folder:
+
+```bash
+cd frontend
+```
+
+If using a simple frontend:
+
+```bash
+open index.html
+```
+
+OR run with Live Server in VS Code.
+
+---
+
+# Usage
+
+1. Launch the backend server.
+2. Open the frontend interface.
+3. Start scanning the local network.
+4. View connected devices and network details.
+5. Analyze the network for auditing purposes.
+
+---
+
+# Future Improvements
+
 * Port scanning support
-* Live traffic monitoring
-* User authentication
-* Dashboard analytics
-* Export scan reports
+* Vulnerability detection
+* Authentication system
+* Scan report export
+* Real-time monitoring dashboard
+* Improved UI/UX
 
-## Learning Objectives
+---
 
-This project was built to improve understanding of:
+# Learning Objectives
 
-* Network scanning concepts
+This project helps in understanding:
+
+* Network scanning
+* Cybersecurity basics
 * Backend and frontend integration
-* Python scripting
-* Cybersecurity fundamentals
-* CLI tool development
+* Python networking concepts
+* Full-stack application development
 
-## Author
+---
+
+# Author
 
 **Harshith**
 
 GitHub:
 https://github.com/HarshithhGit
 
-## License
+---
 
-This project is open-source and available for learning and educational purposes.
+# License
+
+This project is open-source and intended for educational and learning purposes.
