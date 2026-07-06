@@ -128,3 +128,9 @@ https://github.com/HarshithhGit
 # License
 
 This project is open-source and intended for educational and learning purposes.
+
+## Usage
+
+```bash
+python3 main.py
+```
