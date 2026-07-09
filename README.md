@@ -39,7 +39,7 @@ network-auditor-and-scanner/
 <img width="1335" height="608" alt="Screenshot 2026-07-09 234748" src="https://github.com/user-attachments/assets/e0b7a8c1-1456-4bac-8cbd-04c22e8677c4" />
 #Password auidator page
 <img width="1329" height="608" alt="Screenshot 2026-07-09 234830" src="https://github.com/user-attachments/assets/df693e99-8c78-45a1-ab71-d2f9211a068c" />
-#Alerts page
+#Live scan page
 <img width="1220" height="554" alt="Screenshot 2026-07-09 234904" src="https://github.com/user-attachments/assets/3ff2e845-964d-424f-9f05-68fd8e777de1" />
 
 # Installation
